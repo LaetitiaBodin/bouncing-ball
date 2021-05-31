@@ -1,0 +1,51 @@
+@import url('fonts/stylesheet.css');
+
+* {
+    text-align: center;
+    font-family: 'space_ageregular';
+}
+
+body {
+    background-color:  #ddccff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #237A57;
+}
+
+canvas {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+}
+
+div {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #093028;
+    color: #eee6ff;
+    border: outset 5px #237A57;
+    padding: 10px;
+    margin: 0.2rem 0.1rem;
+}
+
+button:active {
+    border: inset 5px #237A57;
+}
+
+button:disabled {
+    opacity: 0.5;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #093028;
+}

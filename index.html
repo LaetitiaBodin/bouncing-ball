@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Bouncing Ball</title>
+		<link rel="icon" href="img/favicon.svg" />
+		<link rel="stylesheet" href="styles/style.css">
+	</head>
+	<body onload="canvasLoad();">
+		<h1>BOUNCING BALL</h1>
+		<canvas width="600" height="500" id="canvas">
+			Votre navigateur ne prend pas en charge &lt;canvas&gt;. 
+		</canvas>
+		<div>
+			<button onclick="canvasStart(this);" id="btnStart">START</button>
+			<button onclick="goFaster();" id="btnFast">FASTER</button>
+			<button onclick="goSlower();" id="btnSlow">SLOWER</button>
+			<button onclick="canvasStop(this);" id="btnStop" disabled>STOP</button>
+		</div>
+		<p>CURRENT SPEED : <span id="currentSpeed"></span></p>
+	<script src="scripts/script.js"></script>
+	</body>
+</html>
